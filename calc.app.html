@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        
+        button{
+            height: 75px;
+            width: 75px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-left: 5px;
+            font-size: 30px;
+            border-color: blue;
+        }
+
+        button:hover{
+            background-color: antiquewhite;
+        }
+
+.container{
+padding: 40px;
+background-color: aliceblue;
+height: 480px;
+width: 350px;
+border-radius: 20px;
+border-color: darkblue;
+margin-left: 500px;
+margin-top: 50px;
+}
+#inp{
+    width: 8.5cm;
+    height: 1.5cm;
+    background-color: white;
+    border-color: rgb(55, 0, 255);
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+#sopr{
+    background-color: blue;
+            color: yellow;
+}
+
+#opr{
+    background-color:azure;
+}
+
+#cal{
+    margin-left: 17cm;
+    margin-top: 1.5cm;
+}
+
+    </style>
+</head>
+<body>
+    <h1 id="cal">Calculator</h1>
+    <div class="container" >
+        <input type="text" id="inp">
+        <div class="sec">
+            <button id="ac">AC</button>
+            <button id="ac">(</button>
+            <button id="ac">)</button> 
+            <button id="opr">/</button>
+        </div>
+        <div class="sec">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button id="opr">*</button>
+        </div>
+        <div class="sec">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button id="opr">-</button>
+        </div>
+        <div class="sec">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button id="opr">+</button>
+        </div>
+        <div class="sec">
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button id="sopr">=</button>
+        </div>
+    </div>
+
+    <script>
+        let input = document.getElementById('inp');
+let buttons = document.querySelectorAll('button');
+
+let string ="";
+
+let array = Array.from(buttons)
+
+array.forEach( button => {
+
+    button.addEventListener('click',(e) => {
+
+        if(e.target.innerHTML == '='){
+            string = eval(string);
+            input.value = string;
+
+
+        }
+
+        else if(e.target.innerHTML == 'AC'){
+            string = "";
+            input.value = string;
+        }
+
+
+        else{
+
+        string += e.target.innerHTML;
+        input.value = string;
+    }
+    })
+
+}
+)
+
+
+    </script>
+</body>
+</html>
