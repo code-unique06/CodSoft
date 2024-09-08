@@ -1,0 +1,47 @@
+button{
+    height: 75px;
+    width: 75px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 30px;
+    border-color: blue;
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
+
+.container{
+padding: 40px;
+background-color: aliceblue;
+height: 480px;
+width: 350px;
+border-radius: 20px;
+border-color: darkblue;
+margin-left: 500px;
+margin-top: 50px;
+}
+#inp{
+width: 8.5cm;
+height: 1.5cm;
+background-color: white;
+border-color: rgb(55, 0, 255);
+border-radius: 10px;
+font-size: 40px;
+}
+
+#sopr{
+background-color: blue;
+    color: yellow;
+}
+
+#opr{
+background-color:azure;
+}
+
+#cal{
+margin-left: 17cm;
+margin-top: 1.5cm;
+}
