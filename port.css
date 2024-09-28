@@ -1,0 +1,267 @@
+body{
+    background-color: aliceblue;
+}
+
+.navbar{
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 15px;
+    background-color:azure;
+    height: 1cm;
+    width: 14cm;
+    border-radius: 20px;
+}
+
+.navbar a{
+    margin-top:40px;
+    margin-right: 40px;
+    margin-left: 20px;
+    font-size: large;
+    color: black;
+    font-weight: 100;
+    align-items: center;
+}
+
+.navbar a:hover{
+    color: orange;
+}
+
+
+
+
+
+
+.home{
+    background-color: aliceblue;
+    margin-top: 150px;
+    margin-left: 40px;
+    height: 200px;
+
+}
+
+
+
+span{
+    color: orange;
+}
+
+
+
+
+
+
+
+.bio1{
+    background-color: azure;
+    margin-top: 350px;
+    height: 750px;
+}
+
+.bio{
+    background-color: antiquewhite;
+    height: 700px;
+    margin-top:80px;
+}
+
+.bio h1{
+    font-size: 40px;
+    background-color: aqua;
+    padding: 20px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bio h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 0px;
+    word-spacing: 0.2cm;
+    line-height: 1cm;
+}
+
+#bi{
+    padding: 20px;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: aqua;
+    margin-top: 50px;
+    margin-left: 680px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+button{
+    height: 1.7cm;
+    width: 7cm;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: yellow;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.bx1{
+    margin-left: 40px;
+    margin-top: 60px;
+    float: left;
+    
+}
+.bx2{
+    margin-right: 30px;
+    margin-top: 60px;
+    float: right;
+    
+}
+
+.bx3{
+    margin-top: 150px;
+    margin-right: 40px;
+    margin-left: 50px;
+    width: 400px;
+    float: left;   
+}
+
+
+.bx4{
+    float: right;
+    margin-top: 120px;
+    margin-right: 220px;
+}
+
+
+
+
+img{
+    height: 150px;
+    width: 180px;
+    transition: 5s;
+}
+
+.skill{
+    margin-top: 90px;
+    margin-left: 300px;
+    margin-bottom: 80px;
+}
+
+#skls{
+    padding: 20px;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: aqua;
+    margin-top: 30px;
+    margin-left: 380px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.b1 img{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.b2 img{
+    margin-top: 80px;
+    margin-left: 180px;
+}
+
+
+label{
+    margin-top: 10px;;
+}
+
+
+.sec1{
+    float: left;
+    margin-top: 50px;
+}
+
+.sec1 img{
+    height: 800px;
+    width: 550px;
+}
+
+.sec2{
+    float:right;
+    background-color: cornsilk;
+    margin-top: 50px;
+    margin-right: 0px;
+    height: 800px;
+    width: 940px;
+
+}
+
+#cont{
+    margin-top: 100px;
+    margin-left: 180px;
+    color: blue;
+    font-size: 50px;
+}
+
+.sec2 h3{
+    margin-left: 50px;
+}
+
+
+.ct{
+    padding: 30px;
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    background:linear-gradient(45deg,yellow,white);
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 150px;
+    border-color: blue;
+    border-width: 15px;
+}
+
+input{
+    height: 1cm;
+    width: 8cm;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+#sub{
+    height: 40px;
+    width: 4cm;
+    background-color:yellow;
+    color: black;
+    font-size: larger;
+    font-weight: 200;
+    margin-left: 3cm ;
+    margin-top: 15px;
+}
+
+#git{
+    margin-top: 20px;
+    margin-left: 150px;
+    color: rgb(255, 0, 0);
+    font-size:35px;
+}
+
+#im{
+    float: right;
+    height: 13cm;
+    width: 10cm;
+    margin-right: 250px;
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.content{
+    padding: 50px;
+    width: 350px;
+    height: 50px;
+    float: left;
+}
